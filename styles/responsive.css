@@ -64,4 +64,25 @@
         margin-left: 24px;
     }
 
+    /* destination section */
+    .destination-gallery img{
+        height: 200px;
+    }
+    .destination-gallery{
+        width: 100%;
+        margin: 0 auto;
+        display: grid;
+        text-align: center;
+        justify-content: center;
+        grid-template-areas: 
+        "Maldives"
+        "Indonesia"
+        "Srilanka"
+        "North-America"
+        "Kashmir"
+        "Bangladesh"
+        "Bandarban";
+        gap: 24px;
+    }
+
 }

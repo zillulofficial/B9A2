@@ -135,3 +135,60 @@ ul li{
     width: 525px;
     margin-bottom: 24px;
 }
+
+/* destination part */
+.destination-head{
+    text-align: center;
+    margin-top: 6.25rem;
+    margin-bottom: 3rem;
+}
+.destination-title{
+    color: #131318;
+    font-weight: 800;
+    font-size: 2.5rem;
+}
+.destination-des{
+    margin-top: 24px;
+    color: rgba(19, 19, 24, 0.70);
+    font-weight: 400;
+}
+.Maldives{
+    grid-area: Maldives;
+}
+.Indonesia{
+    grid-area: Indonesia;
+}
+.Srilanka{
+    grid-area: Srilanka;
+}
+.North-America{
+    grid-area: North-America;
+}
+.Kashmir{
+    grid-area: Kashmir;
+}
+.Bangladesh{
+    grid-area: Bangladesh;
+}
+.Bandarban{
+    grid-area: Bandarban;
+}
+.destination-gallery img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+}
+.destination-gallery{
+    width: 70%;
+    margin: 0 auto;
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    grid-template-areas: 
+    "Maldives Maldives Maldives Indonesia Indonesia Indonesia"
+    "Srilanka Srilanka North-America North-America North-America Kashmir"
+    "Bangladesh Bangladesh Bandarban Bandarban Bandarban Bandarban";
+    gap: 24px;
+    margin-bottom: 50px;
+}
