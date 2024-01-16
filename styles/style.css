@@ -223,6 +223,43 @@ ul li {
     border-radius: 16px;
 }
 
+.destination-gallery1,
+.destination-gallery2,
+.destination-gallery3,
+.destination-gallery4,
+.destination-gallery5,
+.destination-gallery6,
+.destination-gallery7
+{
+    color: #FFF;
+    font-weight: 800;
+    font-size: 1.75rem;
+    position: absolute;
+    top: 48%;
+    z-index: 1;
+}
+.destination-gallery1{
+margin-left: 40%;
+}
+.destination-gallery2{
+    margin-left: 38%;
+}
+.destination-gallery3{
+    margin-left: 35%;
+}
+.destination-gallery4{
+    margin-left: 30%;
+}
+.destination-gallery5{
+    margin-left: 20%;
+}
+.destination-gallery6{
+    margin-left: 30%;
+}
+.destination-gallery7{
+    margin-left: 38%;
+}
+
 .destination-gallery div {
     height: 90%;
 }
@@ -257,16 +294,12 @@ ul li {
 }
 
 .choose-card {
-    display: grid;
-    width: 60%;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    justify-content: center;
     gap: 24px;
     margin: 0 auto;
 }
 
-.choose-card div {
-    justify-content: center;
-}
 
 .choose-title {
     color: #131318;
@@ -430,18 +463,21 @@ ul li {
         "top-left top-left midd midd top-right top-right"
         "bottom-left bottom-right bottom-right bottom-right top-right top-right";
 }
-.hotel-gallery-content-title{
+
+.hotel-gallery-content-title {
     color: #131318;
     font-weight: 800;
     font-size: 2.3rem;
     margin-bottom: 16px;
 }
-.hotel-gallery-content-des{
+
+.hotel-gallery-content-des {
     color: #5A5A5D;
     width: 85%;
     font-weight: 400;
     margin-bottom: 24px;
 }
+
 /* newsletter section */
 .newsletter {
     padding-top: 6.25rem;

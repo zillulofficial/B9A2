@@ -122,6 +122,27 @@
             "Bandarban";
         gap: 24px;
     }
+    .destination-gallery1{
+        margin-left: 35%;
+        }
+        .destination-gallery2{
+            margin-left: 35%;
+        }
+        .destination-gallery3{
+            margin-left: 35%;
+        }
+        .destination-gallery4{
+            margin-left: 25%;
+        }
+        .destination-gallery5{
+            margin-left: 35%;
+        }
+        .destination-gallery6{
+            margin-left: 30%;
+        }
+        .destination-gallery7{
+            margin-left: 30%;
+        }
 
     /* choose card section */
     .choose-card {
