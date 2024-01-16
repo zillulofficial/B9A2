@@ -93,6 +93,7 @@
     .popular-content-list {
         width: 350px;
         margin: 24px;
+        margin-left: 42px;
     }
 
     .popular-content button {
@@ -137,6 +138,26 @@
         height: 289px;
         padding-left: 10px;
         padding-right: 10px;
+    }
+    /* hotel display section*/
+    .hotel-gallery-begin-title{
+        font-size: 2.5rem;
+    }
+    .hotel-gallery {
+        width: 100%;
+        height: 70%;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .hotel-gallery-img {
+        width: 100%;
+    }
+    .hotel-gallery-content {
+        width: 100%;
+        padding: 20px;
+    }
+    .hotel-gallery-content-des{
+        width: 95%;
     }
 
     /* newsletter section */

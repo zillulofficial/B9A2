@@ -167,6 +167,7 @@ ul li {
     font-weight: 400;
     width: 525px;
     margin-bottom: 24px;
+    margin-left: 18px;
 }
 
 /* destination part */
@@ -332,6 +333,114 @@ ul li {
     font-weight: 400;
 }
 
+/* hotel gallery part */
+.hotel-gallery-begin {
+    text-align: center;
+    margin: 50px;
+}
+
+.hotel-gallery-begin-title {
+    color: #131318;
+    font-weight: 800;
+    font-size: 4rem;
+}
+
+.hotel-gallery-begin-des {
+    margin-top: 16px;
+    color: rgba(19, 19, 24, 0.70);
+    font-weight: 400;
+}
+
+.gallery-btn {
+    border-radius: 8px;
+    border: none;
+    padding: 10px 20px;
+    background: #FF5400;
+    color: #FFF;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.hotel-gallery {
+    width: 80%;
+    background-color: rgba(220, 220, 220, 0.418);
+    border-radius: 16px;
+    margin: 0 auto;
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.hotel-gallery-img img:hover {
+    transform: scale(.9);
+}
+
+.hotel-gallery-img img {
+    border-radius: 16px;
+    transition: all .5s ease;
+}
+
+.hotel-gallery-img {
+    width: 45%;
+}
+
+.hotel-gallery-content {
+    width: 50%;
+}
+
+.hotel-images1 {
+    grid-area: top-left;
+}
+
+.hotel-images2 {
+    grid-area: top-mid;
+}
+
+.hotel-images3 {
+    grid-area: top-right;
+}
+
+.hotel-images4 {
+    grid-area: midd;
+}
+
+.hotel-images5 {
+    grid-area: bottom-left;
+}
+
+.hotel-images6 {
+    grid-area: bottom-right;
+}
+
+.hotel-gallery-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.hotel-gallery-img {
+    display: grid;
+    gap: 10px;
+    padding: 10px;
+    object-fit: cover;
+    grid-template-areas:
+        "top-left top-left top-mid top-mid top-right top-right"
+        "top-left top-left midd midd top-right top-right"
+        "bottom-left bottom-right bottom-right bottom-right top-right top-right";
+}
+.hotel-gallery-content-title{
+    color: #131318;
+    font-weight: 800;
+    font-size: 1.5rem;
+    margin-bottom: 16px;
+}
+.hotel-gallery-content-des{
+    color: #5A5A5D;
+    width: 85%;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
 /* newsletter section */
 .newsletter {
     padding-top: 6.25rem;
