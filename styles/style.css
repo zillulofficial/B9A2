@@ -1,15 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800;900&family=Manrope:wght@400;600;700;800&family=Merriweather:wght@400;700;900&family=Poppins:wght@400;500;600;700;900&family=Work+Sans:wght@400;500;600;700;900&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Mulish', sans-serif;
+    font-family: 'Inter', sans-serif;
+    
 }
 
 /* nav style */
 
-/* .navbar {
+.navbar {
     display: flex;
     max-width: 1300px;
     justify-content: space-between;
@@ -36,7 +39,7 @@
     text-decoration: none;
     font-size: 1.125rem;
     color: #424247;
-} */
+}
 
 /* Banner style */
 
@@ -120,9 +123,11 @@
     font-size: 2.5rem;
     margin-bottom: 24px;
 }
-ul li{
+
+ul li {
     margin-bottom: 15px;
 }
+
 .popular-content-des {
     color: rgba(19, 19, 24, 0.70);
     font-weight: 400;
@@ -138,110 +143,132 @@ ul li{
 }
 
 /* destination part */
-.destination-head{
+.destination-head {
     text-align: center;
     margin-top: 6.25rem;
     margin-bottom: 3rem;
 }
-.destination-title{
+
+.destination-title {
     color: #131318;
     font-weight: 800;
     font-size: 2.5rem;
 }
-.destination-des{
+
+.destination-des {
     margin-top: 24px;
     color: rgba(19, 19, 24, 0.70);
     font-weight: 400;
 }
-.Maldives{
+
+.Maldives {
     grid-area: Maldives;
 }
-.Indonesia{
+
+.Indonesia {
     grid-area: Indonesia;
 }
-.Srilanka{
+
+.Srilanka {
     grid-area: Srilanka;
 }
-.North-America{
+
+.North-America {
     grid-area: North-America;
 }
-.Kashmir{
+
+.Kashmir {
     grid-area: Kashmir;
 }
-.Bangladesh{
+
+.Bangladesh {
     grid-area: Bangladesh;
 }
-.Bandarban{
+
+.Bandarban {
     grid-area: Bandarban;
 }
-.destination-gallery img{
+
+.destination-gallery img {
     width: 100%;
     height: 100%;
     border-radius: 16px;
 }
-.destination-gallery div{
+
+.destination-gallery div {
     height: 90%;
 }
-.destination-gallery{
+
+.destination-gallery {
     width: 70%;
     padding: 30px;
     margin: 50px auto;
     display: grid;
     text-align: center;
     justify-content: center;
-    grid-template-areas: 
-    "Maldives Maldives Maldives Indonesia Indonesia Indonesia"
-    "Srilanka Srilanka North-America North-America North-America Kashmir"
-    "Bangladesh Bangladesh Bandarban Bandarban Bandarban Bandarban";
+    grid-template-areas:
+        "Maldives Maldives Maldives Indonesia Indonesia Indonesia"
+        "Srilanka Srilanka North-America North-America North-America Kashmir"
+        "Bangladesh Bangladesh Bandarban Bandarban Bandarban Bandarban";
     gap: 24px;
 }
-.destination-gallery div{
+
+.destination-gallery div {
     transition: all .5s ease;
     cursor: pointer;
 }
-.destination-gallery div:hover{
+
+.destination-gallery div:hover {
     transform: scale(1.1);
 }
+
 /* choose us styles */
-.choose{
+.choose {
     text-align: center;
     margin-bottom: 48px;
 }
-.choose-card{
+
+.choose-card {
     display: grid;
     width: 60%;
     grid-template-columns: repeat(2, 1fr);
     gap: 24px;
     margin: 0 auto;
 }
-.choose-card div{
+
+.choose-card div {
     padding: 30px;
     justify-content: center;
 }
-.choose-title{
+
+.choose-title {
     color: #131318;
     font-weight: 800;
     font-size: 2.5rem;
 }
-.choose-des{
+
+.choose-des {
     color: rgba(19, 19, 24, 0.70);
     font-weight: 400;
 }
-.choose-card1{
+
+.choose-card1 {
     width: 573px;
     height: 284px;
     border-radius: 16px;
     border: 1px solid rgba(251, 181, 99, 0.20);
     background-color: rgba(251, 181, 99, 0.05);
 }
-.choose-card2{
+
+.choose-card2 {
     width: 573px;
     height: 284px;
     border-radius: 16px;
     border: 1px solid rgba(41, 206, 246, 0.20);
     background-color: rgba(41, 206, 246, 0.05);
 }
-.choose-card3{
+
+.choose-card3 {
     width: 573px;
     padding: 30px;
     justify-content: center;
@@ -251,21 +278,90 @@ ul li{
     border: 1px solid rgba(233, 68, 68, 0.20);
     background-color: rgba(233, 68, 68, 0.05);
 }
-.choose-card1, .choose-card2, .choose-card3{
+
+.choose-card1,
+.choose-card2,
+.choose-card3 {
     transition: all .5s ease;
     cursor: pointer;
 }
-.choose-card1:hover, .choose-card2:hover, .choose-card3:hover{
+
+.choose-card1:hover,
+.choose-card2:hover,
+.choose-card3:hover {
     transform: scale(.8);
 }
-.choose-card-title{
+
+.choose-card-title {
     color: #131318;
     font-weight: 800;
     font-size: 1.75rem;
     margin-top: 32px;
     margin-bottom: 16px;
 }
-.choose-des{
+
+.choose-des {
     color: #5A5A5D;
     font-weight: 400;
+}
+
+/* footer styles */
+.footer {
+    background-color: rgba(19, 19, 24, 0.05);
+    text-align: center;
+}
+
+.footer .nav-logo {
+    padding-top: 6.875rem;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.footer-des {
+    color: #5A5A5D;
+    font-weight: 400;
+    width: 769px;
+    margin: 0 auto;
+    margin-bottom: 32px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+}
+
+.social-links a {
+    border: 2px solid white;
+    color: #131318;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    text-decoration: none;
+    margin: 0 0.3rem;
+    transition: all 0.5s ease;
+    margin-bottom: 3rem;
+}
+
+.social-links a:hover {
+    background-color: #FF5400;
+    color: #2b2b2b;
+}
+
+.footer-line {
+    width: 872px;
+    margin: 0 auto;
+    height: 1px;
+    background-color: rgba(19, 19, 24, 0.10);
+    margin-bottom: 50px;
+}
+
+.footer-ending {
+    color: #131318;
+    font-weight: 300;
+    font-family: Inter;
+    padding-bottom: 50px;
 }
