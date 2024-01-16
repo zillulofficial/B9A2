@@ -17,6 +17,7 @@
     max-width: 1300px;
     justify-content: space-between;
     margin: 50px auto;
+    position: relative;
     align-items: center;
 }
 
@@ -37,8 +38,34 @@
 
 .nav-menu a {
     text-decoration: none;
+    position: relative;
     font-size: 1.125rem;
     color: #424247;
+    cursor: pointer;
+}
+
+.close-menu,
+.open-menu {
+    position: absolute;
+    color: #424247;
+    cursor: pointer;
+    font-size: 1.5rem;
+    display: none;
+}
+
+.open-menu {
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+.close-menu {
+    top: 20px;
+    right: 20px;
+}
+
+#check {
+    display: none;
 }
 
 /* Banner style */
@@ -289,7 +316,7 @@ ul li {
 .choose-card1:hover,
 .choose-card2:hover,
 .choose-card3:hover {
-    transform: scale(.8);
+    transform: scale(.9);
 }
 
 .choose-card-title {

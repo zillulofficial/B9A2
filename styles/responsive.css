@@ -1,4 +1,29 @@
 @media screen and (max-width:600px) {
+    /* nav part */
+
+    .nav-menu{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 80vh;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        z-index: 100;
+        background-color: rgb(255, 255, 255);
+        transition: all .2s ease-in-out;
+    }
+    .nav-menu a{
+        padding: 10px;
+    }
+    .open-menu , .close-menu{
+        display: block;
+    }
+    #check :checked ~ .nav-menu {
+        right: 0;
+    }
+
     /* banner part */
 
     .banner {
@@ -28,15 +53,15 @@
     }
     .banner-input-text,
     .banner-input-drop {
-        width: 255px;
+        max-width: 255px;
         margin-top: 20px;
-        height: 52px;
+        max-height: 52px;
         padding-left: 16px;
     }
     .banner-btn {
         padding: 16px;
-        width: 255px;
-        height: 52px;
+        max-width: 255px;
+        max-height: 52px;
         margin-top: 20px;
         margin-bottom: 50px;
     }
