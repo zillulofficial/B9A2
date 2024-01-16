@@ -3,38 +3,43 @@
 
     .banner {
         width: 100%;
-        height: 55vh;
+        height: 60vh;
     }
 
     .banner-title {
-        padding-top: 2rem;
-        color: #FFF;
+        padding-top: 32px;
         font-size: 1.375rem;
-        font-weight: 800;
 
     }
 
     .banner-des {
-        color: #FFF;
-        font-weight: 400;
-        margin-top: 8px;
-        width: 400px;
+        margin: 10px auto;
+        width: 304px;
         font-size: 1rem;
         margin-bottom: 32px;
     }
 
     .banner-input {
-        flex-direction: column;
-        width: 70%;
-        height: 60%;
+        display: block;
+        width: 80%;
+        height: 40vh;
+        padding: 20px;
+        margin-bottom: 20px;
     }
-
     .banner-input-text,
-    .banner-input-drop,
-    .banner-btn {
-        width: 230px;
+    .banner-input-drop {
+        width: 255px;
+        margin-top: 20px;
+        height: 52px;
+        padding-left: 16px;
     }
-
+    .banner-btn {
+        padding: 16px;
+        width: 255px;
+        height: 52px;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
     /* popular part */
 
     .popular {
