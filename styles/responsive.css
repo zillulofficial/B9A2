@@ -230,6 +230,87 @@
     .footer-line {
         width: 300px;
     }
+}
+@media screen and (min-width:991px) and (max-width:1440px) {
+    /* banner part */
+    .banner-input {
+        width: 80%;
+        height: 10vh;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+    .banner-input-text,
+    .banner-input-drop {
+        max-width: 150px;
+        max-height: 52px;
+        padding-left: 16px;
+    }
+    .banner-btn {
+        padding: 16px;
+        max-width: 150px;
+        max-height: 52px;
+    }
+    /* popular part */
+    .popular {
+        padding-top: 1.5rem;
+        max-width: 600px;
+        margin: 0 auto;
+        flex-direction: column;
+        gap: 24px;
+    }
 
+    .popular-img img {
+        width: 100%;
+        padding: 24px;
+    }
+    .popular-content{
+        text-align: center;
+    }
+
+    .popular-content-title {
+        font-size: 2.25rem;
+        text-align: center;
+        margin: 24px;
+    }
+
+    .popular-content-des {
+        text-align: center;
+        width: 600px;
+        margin: 50px;
+    }
+
+    .popular-content-list {
+        width: 600px;
+        margin: 24px;
+        margin-left: 24px;
+    }
+
+    .popular-content button {
+        margin-left: 24px;
+        justify-content: center;
+    }
+    /* choose card section */
+
+    .choose-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .choose-card1,
+    .choose-card2,
+    .choose-card3 {
+        width: 600px;
+        height: 289px;
+        padding: 30px;
+    }
+
+    /* hotel display section*/
+
+    .hotel-gallery-begin-title{
+        font-size: 3rem;
+        padding-top: 50px;
+    }
 
 }
